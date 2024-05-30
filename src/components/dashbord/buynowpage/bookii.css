@@ -1,0 +1,43 @@
+/* CSS for animation */
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .btn-animate {
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Additional styling */
+  .modal-footer {
+    padding: 1rem;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  

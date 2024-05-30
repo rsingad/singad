@@ -1,0 +1,85 @@
+#profrow > div{
+    /* background-color: blue !important; */
+    /* margin: 5px; */
+    margin-top: 10px;
+    border-radius: 5px;
+background: #e0e0e0;
+box-shadow:  2px 2px 5px #b1b1b1,
+             -2px -2px 5px #ffffff;
+
+
+    padding: 10px;
+    
+
+}
+#profrow a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+background: #0d6efd;
+box-shadow:  11px 11px 15px #969696,
+             -11px -11px 15px #ffffff;
+}
+#profrow a:hover {
+    /* border: 1px solid rgb(0, 200, 255); */
+    transform: scale(1.05);
+  }
+
+
+  /* frofile card infooo */
+  .card {
+    /* width: 500px; */
+    height: 800px;
+    border-radius: 44px;
+    background: lightgrey;
+    background: linear-gradient(145deg, #ff6b6b, #d43636);
+    box-shadow: 2px 3px 3px #ba2f2f,
+               2px 3px 3px #ff4949;
+  }
+  
+  .avatar {
+    width: 150px;
+    /* width: fit-content; */
+    height: 150px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.9);
+    margin: 30px 15px 20px 25px;
+    border-radius: 14px;
+  }
+  
+  .info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    width: 50%;
+  }
+  
+  .info-1, .info-2 {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.9);
+  }
+  
+  .info-2 {
+    height: 11px;
+    width: 50%;
+    border-radius: 3px;
+  }
+  
+  .content-1 {
+    width: 80%;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.9);
+    height: 40px;
+    margin: auto;
+  }
+  
+  .content-2 {
+    width: 60%;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.9);
+    height: 18px;
+    margin: 10px 0 0 20px;
+  }
