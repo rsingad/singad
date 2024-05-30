@@ -84,7 +84,7 @@ function ChatHistory() {
           </div>
         );
       })}
-    </div>
+    </div>  
   );
 }
 
