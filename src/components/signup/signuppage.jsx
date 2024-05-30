@@ -81,11 +81,11 @@ const SignUpForm = () => {
         <div className="col-md-6">
           <div className="card">
             <div className="card-body">
-              <h3 className="card-title text-center">साइन अप</h3>
+              <h3 className="card-title text-center text-uppercase">sign up</h3>
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="firstName" className="form-label">
-                    पहला नाम
+                    First Name
                   </label>
                   <input
                     type="text"
@@ -98,8 +98,8 @@ const SignUpForm = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="lastName" className="form-label">
-                    अंतिम नाम
+                  <label htmlFor="lastName" className="form-label text-capitalize">
+                    last Name
                   </label>
                   <input
                     type="text"
@@ -113,7 +113,7 @@ const SignUpForm = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="email" className="form-label">
-                    ईमेल
+                    Email
                   </label>
                   <input
                     type="email"
@@ -141,7 +141,7 @@ const SignUpForm = () => {
                 </div>
                 <div className="mb-3">
                   <label htmlFor="password" className="form-label">
-                    पासवर्ड
+                    Password
                   </label>
                   <input
                     type="password"
@@ -201,7 +201,8 @@ const SignUpForm = () => {
                 </div>
                 <div className="d-grid">
                   <button type="submit" className="btn btn-primary">
-                    साइन अप
+                    {/* sign up */}
+                    submit
                   </button>
                 </div>
               </form>
