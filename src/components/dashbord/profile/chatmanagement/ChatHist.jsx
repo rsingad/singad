@@ -76,8 +76,8 @@ function ChatHistory() {
               </div>
             </div>
             <div
-              className={`p-2 mt-auto mb-auto ${dis2}`}
-              style={{ backgroundColor: "blue" }}
+              className={`p-2 mt-auto mb-auto ${dis2} rounded`}
+              style={{ backgroundColor: "green" }}
             >
               <i>{icn}</i>
             </div>

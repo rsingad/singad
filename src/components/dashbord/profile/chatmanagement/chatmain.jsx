@@ -5,7 +5,7 @@ import ChatInput from "./ChatInput"
 function Chatmain(){
     return(
         <>
-        <div className="bg-primary p-2">
+        <div className="bg-dark p-2 pb-4 ">
         <ChatHistory/>
         <ChatInput/>
         </div>
