@@ -31,10 +31,13 @@ box-shadow:  11px 11px 15px #969696,
     /* width: 500px; */
     height: 800px;
     border-radius: 44px;
-    background: lightgrey;
-    background: linear-gradient(145deg, #ff6b6b, #d43636);
-    box-shadow: 2px 3px 3px #ba2f2f,
-               2px 3px 3px #ff4949;
+    /* background: lightgrey; */
+    /* background: linear-gradient(145deg, #ff6b6b, #d43636); */
+    /* box-shadow:  11px 11px 15px #969696,
+             -11px -11px 15px #ffffff; */
+             background: #e0e0e0 !important;
+box-shadow:  2px 2px 5px #b1b1b1,
+             -2px -2px 5px #ffffff;
   }
   
   .avatar {
@@ -44,7 +47,9 @@ box-shadow:  11px 11px 15px #969696,
     display: inline-block;
     background-color: rgba(255,255,255,0.9);
     margin: 30px 15px 20px 25px;
-    border-radius: 14px;
+    border-radius: 50%;
+    box-shadow: inset 20px 20px 18px #a8a8a8,
+            inset -20px -20px 18px #ffffff;
   }
   
   .info {
@@ -52,6 +57,8 @@ box-shadow:  11px 11px 15px #969696,
     vertical-align: top;
     margin-top: 33px;
     width: 50%;
+    
+    
   }
   
   .info-1, .info-2 {
@@ -60,6 +67,7 @@ box-shadow:  11px 11px 15px #969696,
     width: 100%;
     border-radius: 6px;
     background: rgba(255,255,255,0.9);
+    
   }
   
   .info-2 {
