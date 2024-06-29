@@ -9,7 +9,7 @@ const MyHomePage = () => {
   
   return (
     <>
-      <header className="bg-light p-3 border-bottom">
+      {/* <header className="bg-light p-3 border-bottom">
         <nav className="container d-flex justify-content-between">
           <ul className="nav">
             <li className="nav-item">
@@ -30,7 +30,7 @@ const MyHomePage = () => {
             window.location.href = '/login';
           }}>Log Out</button>
         </nav>
-      </header>
+      </header> */}
 
       <div className="container mt-5">
         <section className="hero bg-primary text-white text-center p-5 mb-5">

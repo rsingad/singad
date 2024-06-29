@@ -169,3 +169,11 @@ text-decoration: none;
 box-shadow:  6px 6px 11px #0c0d0e,
 -6px -6px 11px #2e3134;
 }
+
+#dic{
+  display: -webkit-box;
+        -webkit-line-clamp: 3; /* Number of lines to show */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}

@@ -12,7 +12,7 @@ function Header() {
           >
             <Link to="" class="navbar-brand p-0">
               <h1 class="text-primary m-0">
-                <i class="fa fa-map-marker-alt me-3"></i>LOgo
+                <i class="fa fa-map-marker-alt me-3"></i>Tourscape
               </h1>
               {/* <img src="img/logo.png" alt="Logo"> */}
             </Link>

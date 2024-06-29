@@ -37,7 +37,7 @@ function Privetpkgs() {
                   data-wow-delay="0.1s"
                 >
                   <div class="package-item">
-                    <div class="overflow-hidden" style={{ height: "300px" }}>
+                    <div class="overflow-hidden" style={{ height: "200px" }}>
                       <img
                         class="img-fluid"
                         src={item.imageUrl}
@@ -59,7 +59,7 @@ function Privetpkgs() {
                         {item.minimumPeople} Person
                       </small>
                     </div>
-                    <div class="text-center p-4">
+                    <div class="text-center p-4 " style={{height:"250px"}}>
                       <h3 class="mb-0">${item.amount}</h3>
                       <div class="mb-3">
                         <small class="fa fa-star text-primary"></small>
@@ -69,7 +69,7 @@ function Privetpkgs() {
                         <small class="fa fa-star text-primary"></small>
                       </div>
 
-                      <p>{item.description}</p>
+                      <p id="dic">{item.description}</p>
                       <div class="d-flex justify-content-center mb-2">
                         <Link
                           to={`/pkgDetail/${item.id}`}
