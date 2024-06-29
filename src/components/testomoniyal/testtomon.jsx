@@ -12,7 +12,7 @@ function Testomoniyal() {
       image:
         "https://images.pexels.com/photos/20271383/pexels-photo-20271383/free-photo-of-woman-wearing-beret-on-a-street-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 
-      uname: "divya",
+      uname: "ram",
       pra: "loremTempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet",
       star: 3,
     },

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Privetpkgs from '../privetpackag/privtpkgs';
 // import '../home/HomePage.css'; // Add your custom CSS if needed
 
 const MyHomePage = () => {
@@ -40,7 +41,7 @@ const MyHomePage = () => {
         
     
 
-        <section className="featured-destinations">
+        {/* <section className="featured-destinations">
           <h2 className="text-center mb-4">Featured Destinations</h2>
           <div className="row">
             <div className="col-md-4">
@@ -74,8 +75,10 @@ const MyHomePage = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
+        <Privetpkgs/>
+      
 
       <footer className="bg-light text-center p-3 mt-5">
         <p>&copy; 2024 Tour and Travel. All rights reserved.</p>
